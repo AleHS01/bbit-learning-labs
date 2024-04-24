@@ -22,8 +22,8 @@ from solution.producer_sol import mqProducer  # pylint: disable=import-error
 
 
 def main() -> None:
-    producer = mqProducer(routing_key="Tech Lab Key2",exchange_name="Tech Lab Exchange1")
-    producer.publishOrder("Success! Producer And Consumer Section Complete. WOW")
+    producer = mqProducer(routing_key="Tech Lab Key",exchange_name="Tech Lab Exchange")
+    producer.publishOrder("Success! Producer And Consumer Section Complete")
 
 
 if __name__ == "__main__":
